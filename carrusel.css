@@ -12,20 +12,18 @@
 
 .btn-BIS:hover{
     background: linear-gradient(190deg,#e2cc09,#f38117c9,#e209ac,#e209acc4 45%,#1e5372);
-    color: white;
-}
+    color: white;}
 .wapp{
     position: fixed;
         
 }
 .fondomenu{
-    background: linear-gradient(190deg,#e2cc09,#f38117c9,#e209ac,#e209acc4 45%,#1e5372)
+    background: linear-gradient(360deg,#e209ac,#e209acc4 25%,#1e5372);
 
 }
 .fondomenu a{
     color: white;
 }
-
 .an:hover{
     border-radius: 0px 200px 0px 115px;
     background: linear-gradient(190deg,#e2cc09,#f38117c9,#e209ac,#e209acc4 45%,#1e5372);
@@ -38,17 +36,6 @@ border-radius: 10%;
 
 }
 #main .carousel-inner img {
-max-height: 70vh;
-object-fit: cover;
-filter: grayscale(10%);
-flex-shrink: 0;
-width: 100%;
-height: auto;
-object-fit: cover;
-
-
-}
-#main .carousel-inner img {
     max-height: 70vh;
     object-fit: cover;
     filter: grayscale(10%);
@@ -56,21 +43,28 @@ object-fit: cover;
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 0px 200px 0px 115px;
+    -webkit-border-radius: 0px 200px 0px 115px;
+    -moz-border-radius: 0px 200px 0px 115px;
+    
     
     
     }
 
 #carousel{
     position: relative;
+    border-radius: 0px 200px 0px 115px;
+    box-shadow: 53px 45px 73px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 53px 45px 73px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 53px 45px 73px -1px rgba(0,0,0,0.74);
 }
 
 #carousel .overlay{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    margin-top: 55%;
+    margin-left: -25%;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     z-index: 1;
 }
@@ -89,8 +83,7 @@ object-fit: cover;
 
 #Encuentras{
     background: linear-gradient(90deg,#e209ac,#e209acc4 25%,#1e5372);
-    color: white;
-    margin-top: 50px;
+color: white;
 }
 
 #Encuentras img{
@@ -123,7 +116,7 @@ body{
     width:60px;
     height:60px;
     bottom:40px;
-    left:40px;
+    right:40px;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
