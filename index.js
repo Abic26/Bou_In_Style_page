@@ -38,6 +38,10 @@ function info(){
     let apellidoI =document.getElementById("apellidoI").value ;
     let textoI =document.getElementById("textoI").value ;
     setLocalStorageInfo(nombreI, apellidoI, textoI)
+    document.getElementById("nombreI").value = "";
+    document.getElementById("apellidoI").value = "";
+    document.getElementById("numDocuI").value = "";
+    document.getElementById("textoI").value = "";
 }
 
 function setLocalStorageInfo(nombreI, apellidoI, textoI){
